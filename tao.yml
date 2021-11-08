@@ -9,7 +9,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: us tao|NewJersey, server: tao-eternal.top, port: 443, type: vmess, uuid: b6298060-98b2-4ff1-b473-0aca9aca2e43, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: tao-eternal.top}}
+  - {name: us tao|NewJersey, server: tao-eternal.xyz, port: 443, type: vmess, uuid: b6298060-98b2-4ff1-b473-0aca9aca2e43, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: tao-eternal.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
